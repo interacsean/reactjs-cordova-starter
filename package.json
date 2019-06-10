@@ -5,7 +5,9 @@
   "dependencies": {
     "cordova-ios": "^5.0.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "onsenui": "^2.10.8",
+    "react-onsenui": "^1.11.2"
   },
   "devDependencies": {
     "autoprefixer": "6.7.2",
