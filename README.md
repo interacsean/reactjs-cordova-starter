@@ -2,22 +2,32 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 It has been ejected and made had minimal changes to make the project compatible with cordova for compiling to hybrid app.
 
-### Developing
+### Developing in browser
 
-`npm run start`
+```
+npm install
+npm run start
+```
 
 ### Developing in iOS
 
+Examples in iOS.  Follow similar steps for Android.
+
 ```
-cordova emulate ios
+npx cordova platform add ios
+npx cordova emulate ios
 ```
+
+(`npx` is used to run the cordova binary.  This is automatically available with npm versions 5.2+.  Cordova can also be run with yarn – `yarn cordova platorm add ios`; installed globally via `npm i -g cordova` – `cordova platform add ios`; or simply run from node_modules/.bin – `./node_modules/.bin/cordova platform add ios`)
 
 ### Publising to iOS
 
 ```
 npm run build
-cordova build ios
+npx cordova build ios
 ```
+
+---
 
 The following guide was used to add cordova to the CRA base:
 
