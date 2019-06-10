@@ -27,6 +27,12 @@ npm run build
 npx cordova build ios
 ```
 
+## Using Onsenui
+
+For an example with Onsenui, a forerunning framework in native-like PWA experience, please checkout the branch `with-onsenui`.
+
+It has been excluded from master only as some users may with to start without an opinionated UI framework.
+
 ---
 
 The following guide was used to add cordova to the CRA base:
